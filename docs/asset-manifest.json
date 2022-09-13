@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1f3f795.css",
-    "main.js": "/static/js/main.b4c19942.js",
+    "main.css": "/static/css/main.56076b73.css",
+    "main.js": "/static/js/main.adac2f2c.js",
     "static/media/wallpaper1.jpg": "/static/media/wallpaper1.b8dd6eb707f878c264a2.jpg",
     "static/media/sombir2.jpeg": "/static/media/sombir2.b78660e97eda7325eb90.jpeg",
     "static/media/wallpaper2.jpg": "/static/media/wallpaper2.a36626d7f2ea79475d37.jpg",
@@ -11,11 +11,11 @@
     "static/media/nodejs.png": "/static/media/nodejs.a4713ff2ca054bf23788.png",
     "static/media/css3.png": "/static/media/css3.5721a3928fe43de6baf8.png",
     "index.html": "/index.html",
-    "main.d1f3f795.css.map": "/static/css/main.d1f3f795.css.map",
-    "main.b4c19942.js.map": "/static/js/main.b4c19942.js.map"
+    "main.56076b73.css.map": "/static/css/main.56076b73.css.map",
+    "main.adac2f2c.js.map": "/static/js/main.adac2f2c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1f3f795.css",
-    "static/js/main.b4c19942.js"
+    "static/css/main.56076b73.css",
+    "static/js/main.adac2f2c.js"
   ]
 }
