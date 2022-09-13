@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d1f3f795.css",
+    "main.js": "/static/js/main.b4c19942.js",
+    "static/media/wallpaper1.jpg": "/static/media/wallpaper1.b8dd6eb707f878c264a2.jpg",
+    "static/media/sombir2.jpeg": "/static/media/sombir2.b78660e97eda7325eb90.jpeg",
+    "static/media/wallpaper2.jpg": "/static/media/wallpaper2.a36626d7f2ea79475d37.jpg",
+    "static/media/react-native.png": "/static/media/react-native.7aa3e7438534a7686f56.png",
+    "static/media/github.png": "/static/media/github.b75d8a23ca0ba668d65a.png",
+    "static/media/mongodb.png": "/static/media/mongodb.8bb8850d4280fc83f94b.png",
+    "static/media/nodejs.png": "/static/media/nodejs.a4713ff2ca054bf23788.png",
+    "static/media/css3.png": "/static/media/css3.5721a3928fe43de6baf8.png",
+    "index.html": "/index.html",
+    "main.d1f3f795.css.map": "/static/css/main.d1f3f795.css.map",
+    "main.b4c19942.js.map": "/static/js/main.b4c19942.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1f3f795.css",
+    "static/js/main.b4c19942.js"
+  ]
+}
