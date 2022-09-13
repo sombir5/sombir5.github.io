@@ -10,7 +10,7 @@ import npm from "../images/npm.png";
 // import mern from "../images/mern.png";
 const Skills = () => {
   return (
-    <div className="skills">
+    <div id="skills">
       <h1 className="skill-head">Skills</h1>
       <div className="sub-skill">
         <div className="skillSet1">

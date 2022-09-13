@@ -2,7 +2,7 @@ import React from "react";
 import sombir from "../images/sombir2.jpeg";
 const Introduction = () => {
   return (
-    <div className="intro">
+    <div id="intro">
       <div className="sub-intro">
         <h3>Hi, my name is</h3>
         <h1>Sombir</h1>
