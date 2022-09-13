@@ -1,0 +1,29 @@
+.projects-head {
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.p-detail {
+  color: white;
+  margin-left: 80px;
+}
+.detail {
+  color: white;
+  margin: 80px 200px;
+  display: flex;
+  align-items: center;
+}
+.p-shot {
+  margin: auto;
+  display: block;
+  width: 600px;
+  height: 400px;
+  cursor: pointer;
+}
+.button {
+  margin-top: 20px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}

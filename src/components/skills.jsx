@@ -7,7 +7,9 @@ import git from "../images/github.png";
 import node from "../images/nodejs.png";
 import mongodb from "../images/mongodb.png";
 import npm from "../images/npm.png";
+import "../css/skills.css"
 // import mern from "../images/mern.png";
+
 const Skills = () => {
   return (
     <div id="skills">
