@@ -18,10 +18,20 @@ const projects = () => {
           <h3>Type:Group Project</h3>
           <h3>Contribution: Cart Page</h3>
           <h3>CSS || HTML || Vanilla JS</h3>
-          <div>
-            <a href="https://sombir5.github.io/Bluefly-Clone" target="_blank">
-              <div className="button">Deploy</div>
-            </a>
+          <div className="m-button">
+            <div>
+              <a href="https://sombir5.github.io/Bluefly-Clone" target="_blank">
+                <div className="button">Deploy</div>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/sombir5/Bluefly-Clone"
+                target="_blank"
+              >
+                <div className="button">GitHub</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -39,13 +49,23 @@ const projects = () => {
           <h3>Type:Group Project</h3>
           <h3>Contribution: Tools and Pricing Page</h3>
           <h3>CSS || HTML || Vanilla JS</h3>
-          <div>
-            <a
-              href="https://sombir5.github.io/affable-limit-5459"
-              target="_blank"
-            >
-              <div className="button">Deploy</div>
-            </a>
+          <div className="m-button">
+            <div>
+              <a
+                href="https://sombir5.github.io/affable-limit-5459"
+                target="_blank"
+              >
+                <div className="button">Deploy</div>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/sombir5/affable-limit-5459"
+                target="_blank"
+              >
+                <div className="button">GitHub</div>
+              </a>
+            </div>
           </div>
         </div>
       </div>

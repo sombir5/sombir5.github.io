@@ -1,11 +1,19 @@
-#contacts {
+.h-line {
+  /* border: 1px solid; */
+  height: 2px;
+  width: 100%;
+  background-color: orange;
+  margin-bottom: 20px;
+}
+.social {
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.social {
-  width: 40%;
+.social-icon {
   display: flex;
+  width: 40%;
   justify-content: space-evenly;
   align-items: center;
 }

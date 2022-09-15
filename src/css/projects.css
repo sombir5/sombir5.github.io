@@ -24,6 +24,10 @@
   height: 400px;
   cursor: pointer;
 }
+.m-button {
+  display: flex;
+  gap: 10px;
+}
 .button {
   display: flex;
   justify-content: center;
@@ -43,7 +47,6 @@
     margin: 10px 10px;
   }
   .p-detail {
-
     margin-left: 10px;
     font-size: 15px;
     width: 300px;
@@ -67,7 +70,6 @@
     margin: 10px 10px;
   }
   .p-detail {
-
     margin-left: 10px;
     font-size: 10px;
     width: 300px;

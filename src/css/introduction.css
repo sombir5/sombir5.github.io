@@ -58,7 +58,7 @@
   flex-direction: column;
   justify-content: center;
   transform: scale(1.4,1.4);
-  transition: all 3s;
+  transition: all 1s;
 }
 
 @media all and (min-width: 480px) and (max-width: 720px) {
