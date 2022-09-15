@@ -18,9 +18,9 @@ const projects = () => {
           <h3>Type:Group Project</h3>
           <h3>Contribution: Cart Page</h3>
           <h3>CSS || HTML || Vanilla JS</h3>
-          <div className="button">
+          <div>
             <a href="https://sombir5.github.io/Bluefly-Clone" target="_blank">
-              <div>Deploy</div>
+              <div className="button">Deploy</div>
             </a>
           </div>
         </div>
@@ -39,14 +39,16 @@ const projects = () => {
           <h3>Type:Group Project</h3>
           <h3>Contribution: Tools and Pricing Page</h3>
           <h3>CSS || HTML || Vanilla JS</h3>
-          <div className="button">
-            <a href="https://sombir5.github.io/Bluefly-Clone" target="_blank">
-              <div>Deploy</div>
+          <div>
+            <a
+              href="https://sombir5.github.io/affable-limit-5459"
+              target="_blank"
+            >
+              <div className="button">Deploy</div>
             </a>
           </div>
         </div>
       </div>
-      <div className="p-img"></div>
     </div>
   );
 };

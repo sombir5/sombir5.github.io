@@ -7,13 +7,13 @@ import git from "../images/github.png";
 import node from "../images/nodejs.png";
 import mongodb from "../images/mongodb.png";
 import npm from "../images/npm.png";
-import "../css/skills.css"
+import "../css/skills.css";
 // import mern from "../images/mern.png";
 
 const Skills = () => {
   return (
     <div id="skills">
-      <h1 className="skill-head">Skills</h1>
+      <h1 className="skill-head">Tech Stacks</h1>
       <div className="sub-skill">
         <div className="skillSet1">
           <div>
@@ -45,6 +45,15 @@ const Skills = () => {
           <div>
             <img src={node} alt="NODEJS" />
           </div>
+        </div>
+      </div>
+      <div className="skill-head">
+        <h1>Skills</h1>
+        <div className="d-skill">
+          <h2>
+            FrontEnd Development || Backend Development|| Communication Skills
+            || Data Structures and Algorithm
+          </h2>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import React from "react";
 import sombir from "../images/sombir2.jpeg";
 import Skills from "./skills";
+import Resume from "../images/Resume.pdf";
 import Projects from "./projects";
 import Contacts from "./footer";
 import "../css/introduction.css";
@@ -14,14 +15,18 @@ const Introduction = () => {
           <h1>Sombir</h1>
           <p>
             I am a Full-stack developer with good knowledge of JavaScript,
-            <br /> HTML, CSS, React, MERN and a 1000 hours of coding practice.
-            <br />
+             HTML, CSS, React, MERN and a 1000 hours of coding practice.
             Looking at joining a challenging work environment where
-            <br /> I can develop a deeper understanding of web development.
+             I can develop a deeper understanding of web development.
           </p>
+          <div className="download">
+            <a href={Resume} target="_blank">
+              CV
+            </a>
+          </div>
         </div>
-        <div>
-          <img className="image" src={sombir} alt="" />
+        <div className="pic">
+          <img className="image" src={sombir} alt="sombir" />
         </div>
       </div>
       <Skills />
