@@ -8,15 +8,23 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  position: sticky;
+  top: 60px;
 }
 .m-intro {
   display: flex;
   justify-content: space-evenly;
 }
+.pic{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .image {
   height: 320px;
   width: 320px;
   border-radius: 50%;
+  margin-bottom: 20px;
 }
 .sub-intro {
   color: white;
@@ -29,7 +37,30 @@
   margin: 20px 0px;
   text-align: center;
   border-radius: 13px;
+  border: 1px solid white;
 }
+.stats{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats>a {
+  margin-top: 20px;
+  display: flex;
+  width: 250px;
+  flex-direction: column;
+  justify-content: center;
+}
+.stats>a:hover {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: scale(1.4,1.4);
+  transition: all 3s;
+}
+
 @media all and (min-width: 480px) and (max-width: 720px) {
   .intro {
     padding: 0px 95px;
@@ -46,7 +77,7 @@
     order: 2;
     color: white;
     font-size: 15px;
-     width: 40%;
+    width: 40%;
   }
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
@@ -69,6 +100,6 @@
     order: 2;
     color: white;
     font-size: 15px;
-     width: 100%;
+    width: 100%;
   }
 }
