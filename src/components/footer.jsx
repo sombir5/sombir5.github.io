@@ -6,6 +6,7 @@ import "../css/footer.css";
 const Footer = () => {
   return (
     <div id="contacts">
+      <h1 className="contact-head">Contact Me</h1>
       <div className="h-line"></div>
       <div className="social">
         <div className="social-icon">
