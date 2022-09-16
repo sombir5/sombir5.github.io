@@ -15,6 +15,10 @@ const projects = () => {
         </div>
         <div className="p-detail">
           <h2>Title: Bluefly-Clone</h2>
+          <p>
+            Bluefly is the online shopping destination for the style obsessed,
+            shop designer styles from Prada, Gucci, Dior, Valentino.
+          </p>
           <h3>Type:Group Project</h3>
           <h3>Contribution: Cart Page</h3>
           <h3>CSS || HTML || Vanilla JS</h3>
@@ -46,6 +50,11 @@ const projects = () => {
         </div>
         <div className="p-detail">
           <h2>Title: Bitrix24-Clone</h2>
+          <p>
+            Bitrix24 is an online workspace.Being a highly versatile product,
+            Bitrix24 can be used by a wide variety of teams to achieve
+            outstanding results
+          </p>
           <h3>Type:Group Project</h3>
           <h3>Contribution: Tools and Pricing Page</h3>
           <h3>CSS || HTML || Vanilla JS</h3>

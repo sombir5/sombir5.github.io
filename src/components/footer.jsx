@@ -1,5 +1,6 @@
 import React from "react";
 import github from "../images/github-icon.gif";
+import mail from "../images/mail-icon.gif";
 import linked from "../images/linkedin-icon.gif";
 import "../css/footer.css";
 const Footer = () => {
@@ -12,6 +13,13 @@ const Footer = () => {
             <a href="https://github.com/sombir5">
               <div>
                 <img className="icon" src={github} alt="" />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a href="mailto:sombirverma5@gmail.com">
+              <div>
+                <img className="icon" src={mail} alt="" />
               </div>
             </a>
           </div>
