@@ -8,6 +8,20 @@ const Footer = () => {
     <div id="contacts">
       <h1 className="contact-head">Contact Me</h1>
       <div className="h-line"></div>
+      <div className="form">
+        <form action="https://formspree.io/f/xbjbgwev" method="POST">
+          <label>Contact me</label>
+          <label>
+            Your email:
+            <input type="email" name="email" />
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
       <div className="social">
         <div className="social-icon">
           <div>
