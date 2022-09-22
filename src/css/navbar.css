@@ -7,6 +7,7 @@
   /* position: sticky;
   top: 60px; */
 }
+
 .char {
   padding-left: 40px;
   font-size: 40px;
@@ -16,6 +17,9 @@
   align-items: center;
   height: inherit;
   color: white;
+}
+.sub-nav-portfolio {
+  visibility: hidden;
 }
 .sub-nav {
   width: 60%;
@@ -45,16 +49,28 @@ a:hover {
     font-weight: 500;
   }
   .sub-nav {
-    padding-right: 20px;
-    font-size: 20px;
-    font-weight: 300;
+    height: 40px;
+    background-color: black;
+    visibility: hidden;
+  }
+  .sub-nav-portfolio {
+    visibility: visible;
+    color: white;
+    margin-left: 20%;
   }
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
-  /* .navbar {
-  height: 40px;
-  background-color: black;
-}
+  .sub-nav {
+    height: 40px;
+    background-color: black;
+    visibility: hidden;
+  }
+  .sub-nav-portfolio {
+    visibility: visible;
+    color: white;
+    margin-left: 20%;
+  }
+  /*
 .char {
   padding-left: 10px;
   font-size: 10px;

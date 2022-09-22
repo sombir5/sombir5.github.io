@@ -5,6 +5,7 @@ import Resume from "../images/Resume.pdf";
 import Projects from "./projects";
 import Contacts from "./footer";
 import "../css/introduction.css";
+import Stats from "./stats";
 
 const Introduction = () => {
   return (
@@ -20,35 +21,21 @@ const Introduction = () => {
             understanding of web development.
           </p>
           <div className="download">
+            <a href={Resume} target="_blank" download>
+              <div>Download CV</div>
+            </a>
+          </div>
+          <div className="download2">
             <a href={Resume} target="_blank">
-              <div>CV</div>
+              <div>View CV</div>
             </a>
           </div>
         </div>
         <div className="pic">
           <img className="image" src={sombir} alt="sombir" />
-          <div className="stats">
-            <a
-              href="https://github.com/sombir5?tab=repositories"
-              title="Profile"
-            >
-              <img
-                src="https://github-readme-stats.vercel.app/api?username=sombir5&show_icons=true&custom_title=My%20GitHub%20Stats&border_radius=0"
-                alt="Github Stats"
-              />
-            </a>
-            <a
-              href="https://github.com/sombir5?tab=repositories"
-              title="Profile"
-            >
-              <img
-                src="https://github-readme-streak-stats.herokuapp.com/?user=sombir5&border_radius=0"
-                alt="sombir5"
-              />
-            </a>
-          </div>
         </div>
       </div>
+      <Stats />
       <Skills />
       <Projects />
       <Contacts />
