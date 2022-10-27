@@ -11,14 +11,11 @@ const Footer = () => {
       <div className="form">
         <form action="https://formspree.io/f/xbjbgwev" method="POST">
           <label>Contact me</label>
-          <label>
-            Your email:
-            <input type="email" name="email" />
-          </label>
-          <label>
-            Your message:
-            <textarea name="message"></textarea>
-          </label>
+
+          <input type="email" placeholder="Email" name="email" />
+
+          <textarea name="message" placeholder="Message"></textarea>
+
           <button type="submit">Send</button>
         </form>
       </div>

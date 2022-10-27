@@ -4,6 +4,10 @@
   align-items: center;
   height: 60px;
   background-color: black;
+  border: 2px solid white;
+  position: fixed;
+  width: 100%;
+  z-index: 2px;
 }
 
 .char {

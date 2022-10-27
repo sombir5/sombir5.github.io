@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/navbar.css";
+import Resume from "../images/Resume.pdf";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -20,6 +21,11 @@ const Navbar = () => {
         </div>
         <div>
           <a href="#contacts">Contacts</a>
+        </div>
+        <div>
+          <a href={Resume} target="_blank" download>
+            Resume
+          </a>
         </div>
       </div>
     </div>
