@@ -10,7 +10,7 @@ const projects = () => {
       <h1 className="projects-head">Projects</h1>
       <div className="detail">
         <div className="p-img">
-          <a href="https://myharvest.netlify.app/" target="_blank">
+          <a href="https://myharvest2.netlify.app/" target="_blank">
             <img className="p-shot" src={harvest} alt="harvest" />
           </a>
         </div>
@@ -27,7 +27,7 @@ const projects = () => {
           <h3>CSS || HTML || Vanilla JS || React JS || Redux || Chakra UI </h3>
           <div className="m-button">
             <div>
-              <a href="https://myharvest.netlify.app/" target="_blank">
+              <a href="https://myharvest2.netlify.app/" target="_blank">
                 <div className="button">Deploy</div>
               </a>
             </div>
