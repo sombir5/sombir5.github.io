@@ -20,16 +20,16 @@ const Introduction = () => {
             joining a challenging work environment where I can develop a deeper
             understanding of web development.
           </p>
-          <div className="download">
-            <a href={Resume} target="_blank" download>
-              <div>Download CV</div>
-            </a>
-          </div>
-          <div className="download2">
-            <a href={Resume} target="_blank">
-              <div>View CV</div>
-            </a>
-          </div>
+
+          <a href={Resume} target="_blank" download>
+            <div className="download">Download CV</div>
+          </a>
+
+          <a href={Resume} target="_blank">
+            <div id="stats" className="download2">
+              View CV
+            </div>
+          </a>
         </div>
         <div className="pic">
           <img className="image" src={sombir} alt="sombir" />

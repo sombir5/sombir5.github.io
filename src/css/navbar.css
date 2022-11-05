@@ -1,18 +1,17 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  gap: 0.1em;
   align-items: center;
   height: 60px;
   background-color: black;
-  border: 2px solid white;
   position: fixed;
   width: 100%;
-  z-index: 2px;
 }
 
 .char {
-  padding-left: 40px;
-  font-size: 40px;
+  padding-left: 2.5%;
+  font-size: 2rem;
   font-weight: 900;
   display: flex;
   justify-content: space-evenly;
@@ -20,16 +19,13 @@
   height: inherit;
   color: white;
 }
-.sub-nav-portfolio {
-  visibility: hidden;
-}
 .sub-nav {
-  width: 60%;
+  width: 70%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-right: 40px;
-  font-size: 25px;
+  font-size: clamp(.2rem, 2.5vw, 2rem);
   font-weight: 400;
   height: inherit;
   color: white;
@@ -41,62 +37,21 @@ a {
 .sub-nav > div:hover,
 a:hover {
   color: black;
+  padding: 2px;
   background-color: white;
   border-radius: 5px;
 }
 @media all and (min-width: 480px) and (max-width: 720px) {
-  .char {
-    padding-left: 20px;
-    font-size: 30px;
-    font-weight: 500;
-  }
   .sub-nav {
     height: 40px;
+    width: 70%;
     background-color: black;
-    visibility: hidden;
-  }
-  .sub-nav-portfolio {
-    visibility: visible;
-    color: white;
-    margin-left: 20%;
   }
 }
-@media all and (min-width: 0px) and (max-width: 479px) {
+@media all and (min-width: 0px) and (max-width: 480px) {
   .sub-nav {
     height: 40px;
+    width: 70%;
     background-color: black;
-    visibility: hidden;
   }
-  .sub-nav-portfolio {
-    visibility: visible;
-    color: white;
-    margin-left: 20%;
-  }
-  /*
-.char {
-  padding-left: 10px;
-  font-size: 10px;
-  font-weight: 200;
-}
-.sub-nav {
-  width: 60%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-right: 40px;
-  font-size: 25px;
-  font-weight: 400;
-  height: inherit;
-  color: white;
-}
-a {
-  color: white;
-  text-decoration: none;
-}
-.sub-nav > div:hover,
-a:hover {
-  color: black;
-  background-color: white;
-  border-radius: 5px;
-} */
 }

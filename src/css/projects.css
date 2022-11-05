@@ -1,27 +1,31 @@
+#projects {
+  padding: 2em;
+}
 .projects-head {
+  margin-top: 30px;
   width: 100%;
   color: white;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom:15px;
 }
 
 .detail {
   color: white;
-  margin: 80px 20px;
+  margin: 3em 1em;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 .p-detail {
   color: white;
-  margin-left: 40px;
-  width: 300px;
+  margin-left: 1rem;
+  max-width: 40%;
+  font-size: clamp(0.2em, 2.5vw, 1rem);
+  /* border: 1px solid white; */
 }
 .p-shot {
-  margin: auto;
-  display: block;
-  width: 600px;
-  height: 400px;
+  width: 32vw;
+  height: 24vw;
   cursor: pointer;
 }
 .m-button {
@@ -29,62 +33,33 @@
   gap: 10px;
 }
 .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40px;
-  width: 150px;
-  margin: 20px 0px;
+  width: max-content;
+  padding: 2px 5px;
+  margin: 1em 1em 0 0;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 0.5rem;
   background-color: orange;
 }
 
 /* ----------screens----------------- */
 
 @media all and (min-width: 480px) and (max-width: 720px) {
-  .detail {
-    margin: 10px 10px;
-  }
-  .p-detail {
-    margin-left: 10px;
-    font-size: 15px;
-    width: 300px;
-  }
-  .p-shot {
-    margin: auto;
-    display: block;
-    width: 400px;
-    height: 200px;
-    cursor: pointer;
-  }
-  .button {
-    height: 30px;
-    width: 100px;
-    margin: 10px 0px;
-    border-radius: 10px;
-  }
+
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
+
   .detail {
-    margin: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
   .p-detail {
-    margin-left: 10px;
-    font-size: 10px;
-    width: 300px;
+    max-width: 80vw;
   }
   .p-shot {
-    margin: auto;
-    display: block;
-    width: 250px;
-    height: 150px;
-    cursor: pointer;
-  }
-  .button {
-    height: 30px;
-    width: 100px;
-    margin: 10px 0px;
-    border-radius: 10px;
+    width: 80vw;
+    height: 50vw;
+    margin-bottom: 15px;
   }
 }

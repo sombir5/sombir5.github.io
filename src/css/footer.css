@@ -1,3 +1,6 @@
+#contacts{
+padding-top: 25px;
+}
 .contact-head {
   width: 100%;
   color: white;
@@ -7,7 +10,7 @@
 .h-line {
   /* border: 1px solid; */
   height: 2px;
-  width: 100%;
+  max-width: 100%;
   background-color: orange;
   margin-bottom: 30px;
 }
@@ -21,27 +24,31 @@
   font-size: 20px;
   background-color: white;
   display: flex;
-  height: 300px;
+  /* height: 300px; */
+  font-size: clamp(1rem, 2.5vw, 2rem);
   flex-direction: column;
   align-items: center;
   gap: 30px;
   padding: 20px;
   border-radius: 10px;
-  margin: 20px 100px 50px 100px;
-  width: 40%;
+
+  width: 70%;
 }
 
 button {
-  width: 120px;
-  height: 30px;
+  width:5rem;
+  padding: 2px 5px;
 }
 input {
-  width: 60%;
-  height: 30px;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  width:60vw;
+  height: 5vw;
 }
 textarea {
-  width: 60%;
-  height: 80px;
+  font-size: clamp(1rem, 2.5vw, 2rem);
+  width: 60vw;
+  height: 15vw;
+
 }
 .social {
   width: 100%;
@@ -50,13 +57,14 @@ textarea {
   align-items: center;
 }
 .social-icon {
+  margin-top: 4em;
   display: flex;
-  width: 40%;
+  width: 80%;
   justify-content: space-evenly;
   align-items: center;
 }
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 7vw;
+  height: 7vw;
   border-radius: 50%;
 }
