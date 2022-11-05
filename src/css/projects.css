@@ -24,6 +24,8 @@
   /* border: 1px solid white; */
 }
 .p-shot {
+  margin: auto;
+  display:block;
   width: 32vw;
   height: 24vw;
   cursor: pointer;
