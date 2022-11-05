@@ -34,13 +34,13 @@ a {
   color: white;
   text-decoration: none;
 }
-.sub-nav > div:hover,
+/* .sub-nav > div:hover,
 a:hover {
   color: black;
   padding: 2px;
   background-color: white;
   border-radius: 5px;
-}
+} */
 @media all and (min-width: 480px) and (max-width: 720px) {
   .sub-nav {
     height: 40px;

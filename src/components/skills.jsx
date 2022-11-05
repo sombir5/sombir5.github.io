@@ -28,7 +28,7 @@ const Skills = () => {
             <img src={react} alt="REACT" />
           </div>
           <div>
-            <img src={git} alt="GITHUB" />
+            <img src={npm} alt="NPM" />
           </div>
         </div>
         <div className="skillSet2">
@@ -36,7 +36,7 @@ const Skills = () => {
             <img src={mern} alt="MERN" />
           </div> */}
           <div>
-            <img src={npm} alt="NPM" />
+            <img src={git} alt="GITHUB" />
           </div>
           <div>
             <img src={mongodb} alt="MONGODB" />
@@ -49,10 +49,10 @@ const Skills = () => {
       <div className="skill-head">
         <h1>Skills</h1>
         <div className="d-skill">
-          <h2>
-            FrontEnd Development || Backend Development|| Communication Skills
+          <p>
+            FrontEnd Development || Backend Development || Communication Skills
             || Data Structures and Algorithm
-          </h2>
+          </p>
         </div>
       </div>
     </div>

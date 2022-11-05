@@ -17,22 +17,29 @@
   align-items: flex-start;
 }
 .p-detail {
-  color: white;
+  color: black;
   margin-left: 1rem;
   max-width: 40%;
+  padding: 1rem;
   font-size: clamp(0.5em, 2.5vw, 1.2rem);
-  /* border: 1px solid white; */
+  background-color: white;
+  border-radius: 1rem;
+}
+.m-button > a {
+
+  border: 1px solid;
 }
 .p-shot {
   margin: auto;
-  display:block;
+  display: block;
   width: 32vw;
   height: 24vw;
+  border-radius: 1rem;
   cursor: pointer;
 }
 .m-button {
   display: flex;
-  gap: 10px;
+  gap: 20px;
 }
 .button {
   width: max-content;

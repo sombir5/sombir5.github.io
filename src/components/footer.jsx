@@ -1,6 +1,6 @@
 import React from "react";
-import github from "../images/github-icon.gif";
-import mail from "../images/mail-icon.gif";
+import github from "../images/github.png";
+import mail from "../images/gmail.png";
 import linked from "../images/linkedin-icon.gif";
 import "../css/footer.css";
 const Footer = () => {
