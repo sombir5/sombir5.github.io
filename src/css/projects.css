@@ -25,9 +25,8 @@
   background-color: white;
   border-radius: 1rem;
 }
-.m-button > a {
-
-  border: 1px solid;
+.m-button {
+  padding-top: 10px;
 }
 .p-shot {
   margin: auto;

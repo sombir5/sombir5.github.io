@@ -21,14 +21,21 @@ const Introduction = () => {
             understanding of web development.
           </p>
 
-          <a href={Resume} target="_blank" download="Sombir_Resume">
-            <div className="download">Download CV</div>
+          <a
+            className="download"
+            href={Resume}
+            target="_blank"
+            download="Sombir_Resume"
+          >
+            {/* <div className="download">Download CV</div> */}
+            Download CV
           </a>
 
-          <a href={Resume} target="_blank" >
-            <div id="stats" className="download2">
+          <a className="download2" href={Resume} target="_blank">
+            {/* <div id="stats" className="download2">
               View CV
-            </div>
+            </div> */}
+            View CV
           </a>
         </div>
         <div className="pic">

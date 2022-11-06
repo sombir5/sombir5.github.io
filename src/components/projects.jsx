@@ -19,23 +19,31 @@ const projects = () => {
           <p>
             Harvest is a time-tracking app for freelancers that includes
             invoicing, expensing, and team management features. It's an
-            excellent tool for individuals and small organizations help with all those aspects of their businesses
+            excellent tool for individuals and small organizations help with all
+            those aspects of their businesses
           </p>
           <h4>Type:Group Project</h4>
-          <h4>Contribution: Cart Page</h4>
+          <h4>Contribution: Customer Page and Expenses Page</h4>
           <h4>CSS || HTML || Vanilla JS || React JS || Redux || Chakra UI </h4>
           <div className="m-button">
             <div>
-              <a href="https://myharvest2.netlify.app/" target="_blank">
-                <div className="button">Deploy</div>
+              <a
+                className="button"
+                href="https://myharvest2.netlify.app/"
+                target="_blank"
+              >
+                {/* <div className="button">Deploy</div> */}
+                Deploy
               </a>
             </div>
             <div>
               <a
+                className="button"
                 href="https://github.com/shabazalimalik69/afraid-shoe-4639"
                 target="_blank"
               >
-                <div className="button">GitHub</div>
+                {/* <div className="button">GitHub</div> */}
+                GitHub
               </a>
             </div>
           </div>
@@ -58,16 +66,23 @@ const projects = () => {
           <h4>CSS || HTML || Vanilla JS</h4>
           <div className="m-button">
             <div>
-              <a href="https://sombir5.github.io/Bluefly-Clone" target="_blank">
-                <div className="button">Deploy</div>
+              <a
+                className="button"
+                href="https://sombir5.github.io/Bluefly-Clone"
+                target="_blank"
+              >
+                {/* <div className="button">Deploy</div> */}
+                Deploy
               </a>
             </div>
             <div>
               <a
+                className="button"
                 href="https://github.com/sombir5/Bluefly-Clone"
                 target="_blank"
               >
-                <div className="button">GitHub</div>
+                {/* <div className="button">GitHub</div> */}
+                GitHub
               </a>
             </div>
           </div>
@@ -95,18 +110,22 @@ const projects = () => {
           <div className="m-button">
             <div>
               <a
+                className="button"
                 href="https://sombir5.github.io/affable-limit-5459"
                 target="_blank"
               >
-                <div className="button">Deploy</div>
+                {/* <div className="button">Deploy</div> */}
+                Deploy
               </a>
             </div>
             <div>
               <a
+                className="button"
                 href="https://github.com/sombir5/affable-limit-5459"
                 target="_blank"
               >
-                <div className="button">GitHub</div>
+                {/* <div className="button">GitHub</div> */}
+                GitHub
               </a>
             </div>
           </div>

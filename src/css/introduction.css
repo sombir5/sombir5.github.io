@@ -27,24 +27,26 @@
   color: white;
   font-size: clamp(1rem, 2.5vw, 2rem);
   max-width: 50%;
+}p{
+  padding-bottom: 20px;
 }
 .download {
   background-color: orange;
   width: max-content;
   border-radius: 0.5rem;
-  margin-top: 20px;
   padding: 0 10px;
   text-align: center;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 .download2 {
   background-color: orange;
   width: max-content;
   margin-top: 20px;
   padding: 0 10px;
+  margin-left:3rem;
   text-align: center;
   border-radius: 0.5rem;
-  border: 1px solid white;
+  /* border: 1px solid white; */
 }
 
 @media all and (min-width: 480px) and (max-width: 720px) {
@@ -76,6 +78,7 @@
   }
   .download2 {
     margin-top: 10px;
+    margin-left: 0px;
   }
   .sub-intro {
     order: 2;
