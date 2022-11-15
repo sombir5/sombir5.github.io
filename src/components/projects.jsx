@@ -18,9 +18,7 @@ const projects = () => {
           <h3>Title: Harvest-Clone</h3>
           <p>
             Harvest is a time-tracking app for freelancers that includes
-            invoicing, expensing, and team management features. It's an
-            excellent tool for individuals and small organizations help with all
-            those aspects of their businesses
+            invoicing, expensing, and team management features.
           </p>
           <h4>Type:Group Project</h4>
           <h4>Contribution: Customer Page and Expenses Page</h4>
@@ -100,9 +98,8 @@ const projects = () => {
         <div className="p-detail">
           <h3>Title: Bitrix24-Clone</h3>
           <p>
-            Bitrix24 is an online workspace.Being a highly versatile product,
-            Bitrix24 can be used by a wide variety of teams to achieve
-            outstanding results
+            Being a highly versatile product, Bitrix24 can be used by a wide
+            variety of teams to achieve outstanding results
           </p>
           <h4>Type:Group Project</h4>
           <h4>Contribution: Tools and Pricing Page</h4>
