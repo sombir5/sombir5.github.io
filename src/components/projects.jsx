@@ -15,14 +15,14 @@ const projects = () => {
           </a>
         </div>
         <div className="p-detail">
-          <h3>Title: Harvest-Clone</h3>
-          <p>
+          <label>Title: Harvest-Clone</label><br />
+          <label>
             Harvest is a time-tracking app for freelancers that includes
             invoicing, expensing, and team management features.
-          </p>
-          <h4>Type:Group Project</h4>
-          <h4>Contribution: Customer Page and Expenses Page</h4>
-          <h4>CSS || HTML || Vanilla JS || React JS || Redux || Chakra UI </h4>
+          </label><br />
+          <label>Type:Group Project</label><br />
+          <label>Contribution: Customer Page and Expenses Page</label><br />
+          <label>CSS || HTML || Vanilla JS || React JS || Redux || Chakra UI </label><br />
           <div className="m-button">
             <div>
               <a
@@ -54,14 +54,14 @@ const projects = () => {
           </a>
         </div>
         <div className="p-detail">
-          <h3>Title: Bluefly-Clone</h3>
-          <p>
+          <label>Title: Bluefly-Clone</label><br />
+          <label>
             Bluefly is the online shopping destination for the style obsessed,
             shop designer styles from Prada, Gucci, Dior, Valentino.
-          </p>
-          <h4>Type:Group Project</h4>
-          <h4>Contribution: Cart Page</h4>
-          <h4>CSS || HTML || Vanilla JS</h4>
+          </label><br />
+          <label>Type:Group Project</label><br />
+          <label>Contribution: Cart Page</label><br />
+          <label>CSS || HTML || Vanilla JS</label><br />
           <div className="m-button">
             <div>
               <a
@@ -96,14 +96,14 @@ const projects = () => {
           </a>
         </div>
         <div className="p-detail">
-          <h3>Title: Bitrix24-Clone</h3>
-          <p>
+          <label>Title: Bitrix24-Clone</label><br />
+          <label>
             Being a highly versatile product, Bitrix24 can be used by a wide
             variety of teams to achieve outstanding results
-          </p>
-          <h4>Type:Group Project</h4>
-          <h4>Contribution: Tools and Pricing Page</h4>
-          <h4>CSS || HTML || Vanilla JS</h4>
+          </label><br />
+          <label>Type:Group Project</label><br />
+          <label>Contribution: Tools and Pricing Page</label><br />
+          <label>CSS || HTML || Vanilla JS</label><br />
           <div className="m-button">
             <div>
               <a

@@ -22,8 +22,10 @@
 .skillSet2 {
   display: flex;
   width: 70%;
+  gap:0.5rem;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 .skillSet1 > div > img {
   height: 12vw;

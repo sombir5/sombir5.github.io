@@ -15,15 +15,17 @@
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
+  /* border: 1px solid white; */
 }
 .p-detail {
   color: black;
-  margin-left: 1rem;
-  max-width: 32vw;
-  padding:1rem;
-  font-size: clamp(0.1rem, 2.2vw, 1rem);
+  margin-left: .3rem;
+  max-width: 42vw;
+  max-height: fit-content;
+  padding:1rem 0.8rem;
+  font-size: clamp(0.1rem, 2vw, .8rem);
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 .m-button {
   padding-top: .5rem;
@@ -31,9 +33,9 @@
 .p-shot {
   margin: auto;
   display: block;
-  width: 32vw;
-  height: 24vw;
-  border-radius: 1rem;
+  width: 42vw;
+  height: 28vw;
+  border-radius: 0.5rem;
   cursor: pointer;
 }
 .m-button {
@@ -52,6 +54,26 @@
 /* ----------screens----------------- */
 
 @media all and (min-width: 480px) and (max-width: 720px) {
+   .detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .p-detail {
+    max-width: 80vw;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  .p-shot {
+    width: 80vw;
+    height: 50vw;
+    margin-bottom: 15px;
+  }
 }
 @media all and (min-width: 0px) and (max-width: 479px) {
   .detail {
@@ -67,7 +89,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
   }
   .p-shot {
     width: 80vw;

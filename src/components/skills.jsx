@@ -15,19 +15,19 @@ const Skills = () => {
       <h1 className="skill-head">Tech Stacks</h1>
       <div className="sub-skill">
         <div className="skillSet1">
-          <div>
+          <div style={{backgroundColor:"white"}}>
             <img src={html} alt="HTML" />
           </div>
-          <div>
+          <div style={{backgroundColor:"white"}}>
             <img src={css} alt="CSS" />
           </div>
-          <div>
+          <div style={{backgroundColor:"white"}}>
             <img src={js} alt="JS" />
           </div>
-          <div>
+          <div style={{backgroundColor:"white"}}>
             <img src={react} alt="REACT" />
           </div>
-          <div>
+          <div style={{backgroundColor:"white"}}>
             <img src={npm} alt="NPM" />
           </div>
         </div>
@@ -35,13 +35,13 @@ const Skills = () => {
           {/* <div>
             <img src={mern} alt="MERN" />
           </div> */}
-          <div>
-            <img src={git} alt="GITHUB" />
-          </div>
-          <div>
+          <div style={{ backgroundColor: "white" }}>
             <img src={mongodb} alt="MONGODB" />
           </div>
-          <div>
+          <div style={{ backgroundColor: "white" }}>
+            <img src={git} alt="GITHUB" />
+          </div>
+          <div style={{ backgroundColor: "white" }}>
             <img src={node} alt="NODEJS" />
           </div>
         </div>
