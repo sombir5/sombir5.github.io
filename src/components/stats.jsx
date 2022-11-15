@@ -3,7 +3,7 @@ import GitHubCalendar from "react-github-calendar";
 import "../css/stats.css";
 const Stats = () => {
   return (
-    <div className="m-stats">
+    <div id="m-stats">
       <h1 className="stats-head">Stats</h1>
       <div className="stats">
         <a href="https://github.com/sombir5?tab=repositories" title="Profile">

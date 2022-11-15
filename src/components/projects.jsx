@@ -3,11 +3,56 @@ import "../css/projects.css";
 import harvest from "../images/harvest.png";
 import bluefly from "../images/Bluefly.png";
 import bitrix from "../images/Bitrix24.png";
+import beautyHub from "../images/BeautyHub.png";
 
 const projects = () => {
   return (
     <div id="projects">
       <h1 className="projects-head">Projects</h1>
+      <div className="detail">
+        <div className="p-img">
+          <a href="https://beautyhubproject.netlify.app" target="_blank">
+            <img className="p-shot" src={beautyHub} alt="BeautyHub" />
+          </a>
+        </div>
+        <div className="p-detail">
+          <label>Title: BeautyHub</label>
+          <br />
+          <label>
+            BeautyHub is an online retailer that sells premium beauty,clinical
+            skincare,and luxury spa products..
+          </label>
+          <br />
+          <label>Type:Group Project</label>
+          <br />
+          <label>
+            Contribution: Landing, Skincare, Hairs,Fragrance,Bath&Body page{" "}
+          </label>
+          <br />
+          <label>HTML || Vanilla JS || React || Redux || ChakraUI</label>
+          <br />
+          <div className="m-button">
+            <div>
+              <a
+                className="button"
+                href="https://beautyhubproject.netlify.app"
+                target="_blank"
+              >
+                Deploy
+              </a>
+            </div>
+            <div>
+              <a
+                className="button"
+                href="https://github.com/Sagarsandbhor17/Beautyhub"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="detail">
         <div className="p-img">
           <a href="https://myharvest2.netlify.app/" target="_blank">
@@ -37,7 +82,6 @@ const projects = () => {
                 href="https://myharvest2.netlify.app/"
                 target="_blank"
               >
-                {/* <div className="button">Deploy</div> */}
                 Deploy
               </a>
             </div>
@@ -47,7 +91,6 @@ const projects = () => {
                 href="https://github.com/shabazalimalik69/afraid-shoe-4639"
                 target="_blank"
               >
-                {/* <div className="button">GitHub</div> */}
                 GitHub
               </a>
             </div>
@@ -126,7 +169,6 @@ const projects = () => {
                 href="https://sombir5.github.io/affable-limit-5459"
                 target="_blank"
               >
-                {/* <div className="button">Deploy</div> */}
                 Deploy
               </a>
             </div>
@@ -136,7 +178,6 @@ const projects = () => {
                 href="https://github.com/sombir5/affable-limit-5459"
                 target="_blank"
               >
-                {/* <div className="button">GitHub</div> */}
                 GitHub
               </a>
             </div>
