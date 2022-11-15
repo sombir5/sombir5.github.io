@@ -15,14 +15,21 @@ const projects = () => {
           </a>
         </div>
         <div className="p-detail">
-          <label>Title: Harvest-Clone</label><br />
+          <label>Title: Harvest-Clone</label>
+          <br />
           <label>
             Harvest is a time-tracking app for freelancers that includes
             invoicing, expensing, and team management features.
-          </label><br />
-          <label>Type:Group Project</label><br />
-          <label>Contribution: Customer Page and Expenses Page</label><br />
-          <label>CSS || HTML || Vanilla JS || React JS || Redux || Chakra UI </label><br />
+          </label>
+          <br />
+          <label>Type:Group Project</label>
+          <br />
+          <label>Contribution: Customer Page and Expenses Page</label>
+          <br />
+          <label>
+            CSS || HTML || Vanilla JS || React JS || Redux || Chakra UI{" "}
+          </label>
+          <br />
           <div className="m-button">
             <div>
               <a
@@ -54,14 +61,19 @@ const projects = () => {
           </a>
         </div>
         <div className="p-detail">
-          <label>Title: Bluefly-Clone</label><br />
+          <label>Title: Bluefly-Clone</label>
+          <br />
           <label>
             Bluefly is the online shopping destination for the style obsessed,
             shop designer styles from Prada, Gucci, Dior, Valentino.
-          </label><br />
-          <label>Type:Group Project</label><br />
-          <label>Contribution: Cart Page</label><br />
-          <label>CSS || HTML || Vanilla JS</label><br />
+          </label>
+          <br />
+          <label>Type:Group Project</label>
+          <br />
+          <label>Contribution: Cart Page</label>
+          <br />
+          <label>CSS || HTML || Vanilla JS</label>
+          <br />
           <div className="m-button">
             <div>
               <a
@@ -69,7 +81,6 @@ const projects = () => {
                 href="https://sombir5.github.io/Bluefly-Clone"
                 target="_blank"
               >
-                {/* <div className="button">Deploy</div> */}
                 Deploy
               </a>
             </div>
@@ -79,7 +90,6 @@ const projects = () => {
                 href="https://github.com/sombir5/Bluefly-Clone"
                 target="_blank"
               >
-                {/* <div className="button">GitHub</div> */}
                 GitHub
               </a>
             </div>
@@ -96,14 +106,19 @@ const projects = () => {
           </a>
         </div>
         <div className="p-detail">
-          <label>Title: Bitrix24-Clone</label><br />
+          <label>Title: Bitrix24-Clone</label>
+          <br />
           <label>
             Being a highly versatile product, Bitrix24 can be used by a wide
             variety of teams to achieve outstanding results
-          </label><br />
-          <label>Type:Group Project</label><br />
-          <label>Contribution: Tools and Pricing Page</label><br />
-          <label>CSS || HTML || Vanilla JS</label><br />
+          </label>
+          <br />
+          <label>Type:Group Project</label>
+          <br />
+          <label>Contribution: Tools and Pricing Page</label>
+          <br />
+          <label>CSS || HTML || Vanilla JS</label>
+          <br />
           <div className="m-button">
             <div>
               <a
