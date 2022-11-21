@@ -14,6 +14,7 @@
   color: white;
   margin: 3em 1em;
   display: flex;
+  gap: 2%;
   justify-content: flex-start;
   align-items: center;
   /* border: 1px solid white; */
