@@ -9,6 +9,7 @@ const projects = () => {
   return (
     <div id="projects">
       <h1 className="projects-head">Projects</h1>
+      
       <div className="detail">
         <div className="p-img">
           <a href="https://beautyhubproject.netlify.app" target="_blank">

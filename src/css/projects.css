@@ -1,5 +1,9 @@
 #projects {
   padding: 2em;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
 }
 .projects-head {
   margin-top: 30px;
@@ -17,9 +21,17 @@
   align-items: flex-start;
   /* border: 1px solid white; */
 }
+.p-shot {
+  margin: auto;
+  display: block;
+  width: 42vw;
+  height: 28vw;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
 .p-detail {
   color: black;
-  margin-left: .3rem;
+  margin-left: 0.3rem;
   max-width: 42vw;
   max-height: fit-content;
   padding:1rem 0.8rem;
@@ -29,14 +41,6 @@
 }
 .m-button {
   padding-top: .5rem;
-}
-.p-shot {
-  margin: auto;
-  display: block;
-  width: 42vw;
-  height: 28vw;
-  border-radius: 0.5rem;
-  cursor: pointer;
 }
 .m-button {
   display: flex;
