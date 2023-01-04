@@ -9,10 +9,10 @@ const projects = () => {
   return (
     <div id="projects">
       <h1 className="projects-head">Projects</h1>
-      
+
       <div className="detail">
         <div className="p-img">
-          <a href="https://beautyhubproject.netlify.app" target="_blank">
+          <a href="https://beauty-hub.vercel.app" target="_blank">
             <img className="p-shot" src={beautyHub} alt="BeautyHub" />
           </a>
         </div>
@@ -36,7 +36,7 @@ const projects = () => {
             <div>
               <a
                 className="button"
-                href="https://beautyhubproject.netlify.app"
+                href="https://beauty-hub.vercel.app"
                 target="_blank"
               >
                 Deploy
@@ -56,7 +56,7 @@ const projects = () => {
       </div>
       <div className="detail">
         <div className="p-img">
-          <a href="https://myharvest2.netlify.app/" target="_blank">
+          <a href="https://ourharvestclone.netlify.app/" target="_blank">
             <img className="p-shot" src={harvest} alt="harvest" />
           </a>
         </div>
@@ -80,7 +80,7 @@ const projects = () => {
             <div>
               <a
                 className="button"
-                href="https://myharvest2.netlify.app/"
+                href="https://ourharvestclone.netlify.app/"
                 target="_blank"
               >
                 Deploy
@@ -89,7 +89,7 @@ const projects = () => {
             <div>
               <a
                 className="button"
-                href="https://github.com/shabazalimalik69/afraid-shoe-4639"
+                href="https://github.com/shabazalimalik69/Harvest"
                 target="_blank"
               >
                 GitHub
@@ -143,7 +143,7 @@ const projects = () => {
       <div className="detail">
         <div className="p-img">
           <a
-            href="https://sombir5.github.io/affable-limit-5459"
+            href="https://magical-pudding-c7b495.netlify.app/"
             target="_blank"
           >
             <img className="p-shot" src={bitrix} alt="Bitrix24" />
@@ -167,7 +167,7 @@ const projects = () => {
             <div>
               <a
                 className="button"
-                href="https://sombir5.github.io/affable-limit-5459"
+                href="https://magical-pudding-c7b495.netlify.app/"
                 target="_blank"
               >
                 Deploy
@@ -176,7 +176,7 @@ const projects = () => {
             <div>
               <a
                 className="button"
-                href="https://github.com/sombir5/affable-limit-5459"
+                href="https://github.com/sombir5/Bitrix-24_clone"
                 target="_blank"
               >
                 GitHub
